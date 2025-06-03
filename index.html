@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        
+        <nav>
+            <a href="index.html" class="logo"><img src="logo.png" alt="Logo"></a>
+            <div class="nav-links" style="right: -200px;">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+        <h1>Worlds Biggest University</h1>
+        <p>
+            Making website is now one of the easiest thing in the world.<br> you just need to learn HTML,CSS,Javascript and you are good to go.
+        </p>
+        <a href="" class="hero-btn">Visit Us to know more</a>
+        </div>   
+    </section>
+    <section class="course">
+        <h1>Courses We offer</h1>
+        <p>Lorem isum dolor sit amet,consectetur adipiscing elit</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>CSS (Cascading Style Sheets) is used to style HTML elements and control their appearance on a webpage. It includes various properties like colors, fonts, layouts, and animations</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>CSS (Cascading Style Sheets) is used to style HTML elements and control their appearance on a webpage. It includes various properties like colors, fonts, layouts, and animations</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>CSS (Cascading Style Sheets) is used to style HTML elements and control their appearance on a webpage. It includes various properties like colors, fonts, layouts, and animations</p>
+            </div>
+        </div>    </section>
+    <section class="campus">
+        <h1>Our Global Campus</h1>
+        <p>Our campus are present at the different places of the world</p>
+        <div class="row">
+            <div class="campus-col">
+                <img src="london.png">
+                <div class="layer">
+                    <h3>London</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="newyork.png">
+                <div class="layer">
+                    <h3>Newyork</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img src="washington.png">
+                <div class="layer">
+                    <h3>Washington</h3>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>We provide different types of research based facilities</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="library.png">
+                <h3>World Class Library</h3>
+                <p>Here we provide a wide range of books on every possible topic.</p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="basketball.png">
+                <h3>Largest Playground</h3>
+                <p>Here we provide a wide range of sports facilities for all students.</p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="cafeteria.png">
+                <h3>Tasty and Healthy</h3>
+                <p>Our cafeteria offers a variety of tasty and healthy food options.</p>
+
+            </div>
+        </div>
+
+    </section>
+    <section class="testimonials">
+        <h1>What our Students Say</h1>
+        <p>Students are very happy by research and development culture</p>
+        <div class="row">
+            <div class="testimonials-col">
+            <img src="user1.jpg">
+            <p>
+                "The university provides excellent research opportunities and a supportive environment. The faculty is knowledgeable and always ready to help. I have grown both academically and personally during my time here."
+            </p><br>
+            <h3>David</h3>
+            <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i>
+            </div>
+            <div class="testimonials-col">
+            <img src="user2.jpg">
+            <p>
+                "The university provides excellent research opportunities and a supportive environment. The faculty is knowledgeable and always ready to help. I have grown both academically and personally during my time here."
+            </p><br>
+            <h3>Lara</h3>
+            <i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half-o" aria-hidden="true"></i>
+            
+            </div>
+        </div>
+    </section>
+    <section class="cta">
+        <h1>Enrol for our various online couses anywhere from the world</h1>
+        <a  class="hero-btn">Contact us</a>
+    
+    </section>
+    <section class="footer">
+        <h4>About US</h4>
+        <p>Our university is dedicated to providing world-class education and fostering a culture of innovation and research.<br> With a diverse community of students and faculty, we strive to create an environment where everyone can learn, grow, and achieve their goals. Our commitment to excellence ensures that our graduates are well-prepared to make a positive impact in the world.</p>
+        <div class="icons">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin-in"></i>
+        </div>
+    </section>
+    <script>
+        function showMenu() {
+            document.querySelector('.nav-links').style.right = "0";
+        }
+        function hideMenu() {
+            document.querySelector('.nav-links').style.right = "-200px";
+        }
+    </script>
+
+</body></html>
